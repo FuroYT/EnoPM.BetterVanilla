@@ -304,6 +304,10 @@ public class BetterPlayerControl : MonoBehaviour
                 return "Nois.";
             case RoleTypes.Tracker:
                 return "Trac.";
+            case RoleTypes.Judge:
+                return "Judge.";
+            case RoleTypes.SpiritGuide:
+                return "Infl.";
             case RoleTypes.CrewmateGhost:
             case RoleTypes.Crewmate:
                 return "Crew.";
